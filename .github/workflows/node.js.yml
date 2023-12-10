@@ -29,15 +29,11 @@ jobs:
     - run: npm ci
     - run: CI=false npm run build
 
-    - name: Deploy via SSH
-      env:
-        SSH_PRIVATE_KEY: ${{ secrets.SSH_PRIVATE_KEY }}
-      run: |
-        mkdir -p ~/.ssh/
-        echo "$SSH_PRIVATE_KEY" > ~/.ssh/id_rsa
-        chmod 600 ~/.ssh/id_rsa
-        eval $(ssh-agent -s)
-        ssh-keyscan -H 50.87.170.107 >> ~/.ssh/known_hosts
-
-        # Rest of your deployment script using SSH
-        ssh -o StrictHostKeyChecking=no -i ~/.ssh/id_rsa dffcexmy@50.87.170.107 'cd /public_html && git pull origin main'
+    - name: FTP Deploy
+      uses: SamKirkland/FTP-Deploy-Action@4.0.0
+      with:
+        server: ${{ secrets.FTP_SERVER }}
+        username: ${{ secrets.FTP_USERNAME }}
+        password: ${{ secrets.FTP_PASSWORD }}
+        server-dir: '.'
+        local-dir: '.'
