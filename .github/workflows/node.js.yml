@@ -36,6 +36,7 @@ jobs:
         mkdir -p ~/.ssh/
         echo "$SSH_PRIVATE_KEY" > ~/.ssh/id_rsa
         chmod 600 ~/.ssh/id_rsa
+        ssh-keyscan -H 50.87.170.107 >> ~/.ssh/known_hosts
 
         # Rest of your deployment script using SSH
         ssh -o StrictHostKeyChecking=no -i ~/.ssh/id_rsa dffcexmy@50.87.170.107 'cd /public_html && git pull origin main'
