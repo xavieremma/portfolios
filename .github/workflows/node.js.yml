@@ -30,6 +30,12 @@ jobs:
     - run: CI=false npm run build
 
     - name: Deploy via SSH
+      env:
+        SSH_PRIVATE_KEY: ${{ secrets.SSH_PRIVATE_KEY }}
       run: |
-          sudo apt-get update && sudo apt-get install -y sshpass
-          sshpass -p ${{ secrets.SSH_PASSWORD }} ssh xavierem@192.254.237.47 'cd /public_html && git pull origin main'
+        mkdir -p ~/.ssh/
+        echo "$SSH_PRIVATE_KEY" > ~/.ssh/id_rsa
+        chmod 600 ~/.ssh/id_rsa
+
+        # Rest of your deployment script using SSH
+        ssh -i ~/.ssh/id_rsa dffcexmy@50.87.170.107 'cd /public_html && git pull origin main'
