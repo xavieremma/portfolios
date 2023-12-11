@@ -13,7 +13,7 @@ function AboutCard() {
             <br />
             I am currently double majoring in Computer Science and Mathematics.
             <br />
-            I strive to find a career in Software Development where I can trult make an impact.
+            I strive to find a career in Software Development where I can truly make an impact.
             <br />
             <br />
             Apart from coding, some other activities that I love to do!
