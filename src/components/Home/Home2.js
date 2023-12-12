@@ -33,7 +33,7 @@ function Home2() {
                 <b className="purple">Software Development </b> and
                 also in areas relating to{" "}
                 <b className="purple">
-                  Artificial Intelligence.
+                  Artificial Intelligence (AI).
                 </b>
               </i>
               <br />
