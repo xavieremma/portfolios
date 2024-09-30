@@ -25,10 +25,10 @@ function Projects() {
             <ProjectCard
               imgPath={chatify}
               isBlog={false}
-              title="Coming Soon"
-              description="Coming Soon!"
-              ghLink="https://github.com/soumyajit4419/Chatify"
-              demoLink="https://chatify-49.web.app/"
+              title="MIPS Processor"
+              description="MySPIM will demonstrate some functions of MIPS processor as well as the principle of the datapath and the control signals of MIPS processor."
+              ghLink="https://github.com/xavieremma/MIPS-Processor"
+              demoLink="https://github.com/xavieremma/MIPS-Processor"
             />
           </Col>
 
@@ -36,10 +36,11 @@ function Projects() {
             <ProjectCard
               imgPath={bitsOfCode}
               isBlog={false}
-              title="Coming Soon"
-              description="Coming Soon!"
-              ghLink="https://github.com/soumyajit4419/Bits-0f-C0de"
-              demoLink="https://blogs.soumya-jit.tech/"
+              title="D3 Library Node Graph"
+              description="Using the D3 Library to construct a a visible interactive chart to highlight the societal factors affecting minorities based on an excel spreadsheet of over 500
+                studies, articles, and surveys"
+              ghLink="https://github.com/xavieremma/D#LibraryNodeGraph"
+              demoLink=""
             />
           </Col>
 
