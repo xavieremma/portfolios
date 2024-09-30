@@ -37,10 +37,9 @@ function Projects() {
               imgPath={bitsOfCode}
               isBlog={false}
               title="D3 Library Node Graph"
-              description="Using the D3 Library to construct a a visible interactive chart to highlight the societal factors affecting minorities based on an excel spreadsheet of over 500
-                studies, articles, and surveys"
+              description="Using the D3 Library to construct a a visible interactive chart to highlight the societal factors affecting minorities based on an excel spreadsheet of over 500 studies, articles, and surveys"
               ghLink="https://github.com/xavieremma/D#LibraryNodeGraph"
-              demoLink=""
+              demoLink="https://google.com"
             />
           </Col>
 
