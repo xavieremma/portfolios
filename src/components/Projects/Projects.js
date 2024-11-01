@@ -1,4 +1,4 @@
-xaxx    xaxaqwd;kjbds;vfjbdsav;kjbnimport React from "react";
+import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
