@@ -38,7 +38,7 @@ function Projects() {
               isBlog={false}
               title="D3 Library Node Graph"
               description="Using the D3 Library to construct a a visible interactive chart to highlight the societal factors affecting minorities based on an excel spreadsheet of over 500 studies, articles, and surveys"
-              ghLink="https://github.com/xavieremma/D#LibraryNodeGraph"
+              ghLink="https://github.com/xavieremma/D3LibraryNodeGraph"
               demoLink="https://google.com"
             />
           </Col>
@@ -47,10 +47,10 @@ function Projects() {
             <ProjectCard
               imgPath={editor}
               isBlog={false}
-              title="Coming Soon"
-              description="Coming Soon!"
-              ghLink="https://github.com/soumyajit4419/Editor.io"
-              demoLink="https://editor.soumya-jit.tech/"              
+              title="Computer Science I Assignments"
+              description="A varitey of programming assignments showcasing my skills in Data Structures and Algorithms"
+              ghLink="https://github.com/xavieremma/CS1"
+              demoLink=""              
             />
           </Col>
 
@@ -58,10 +58,10 @@ function Projects() {
             <ProjectCard
               imgPath={leaf}
               isBlog={false}
-              title="Coming Soon"
-              description="Coming Soon"
-              ghLink="https://github.com/soumyajit4419/Plant_AI"
-              demoLink="https://plant49-ai.herokuapp.com/"
+              title="MIPS Processor"
+              description="MySPIM will demonstrate some functions of MIPS processor as well as the principle of the datapath and the control signals of MIPS processor."
+              ghLink="https://github.com/xavieremma/MIPS-Processor"
+              demoLink=""
             />
           </Col>
 
@@ -69,9 +69,9 @@ function Projects() {
             <ProjectCard
               imgPath={suicide}
               isBlog={false}
-              title="Coming Soon"
-              description="Coming Soon"
-              ghLink="https://github.com/soumyajit4419/AI_For_Social_Good"
+              title="Computer Science II Assignments"
+              description="Variety of programming assignments demonstrating my understanding and skills of advanced Computer Science topics"
+              ghLink="https://github.com/xavieremma/CS2"
               // demoLink="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" <--------Please include a demo link here
             />
           </Col>
@@ -82,7 +82,7 @@ function Projects() {
               isBlog={false}
               title="Coming Soon"
               description="Coming Soon!"
-              ghLink="https://github.com/soumyajit4419/Face_And_Emotion_Detection"
+              // ghLink="https://github.com/soumyajit4419/Face_And_Emotion_Detection"
               // demoLink="https://blogs.soumya-jit.tech/"      <--------Please include a demo link here 
             />
           </Col>
